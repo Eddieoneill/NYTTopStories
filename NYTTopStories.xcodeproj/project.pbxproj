@@ -13,6 +13,9 @@
 		6C47126F23EC6B6C005FE761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C47126D23EC6B6C005FE761 /* LaunchScreen.storyboard */; };
 		6C47127A23EC6B6C005FE761 /* NYTTopStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47127923EC6B6C005FE761 /* NYTTopStoriesTests.swift */; };
 		6C47128523EC6C37005FE761 /* TopStoriesTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128423EC6C37005FE761 /* TopStoriesTabController.swift */; };
+		6C47128A23EC6E54005FE761 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128923EC6E54005FE761 /* NewsFeedViewController.swift */; };
+		6C47128C23EC6E78005FE761 /* SavedArticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128B23EC6E78005FE761 /* SavedArticalViewController.swift */; };
+		6C47128E23EC6E86005FE761 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128D23EC6E86005FE761 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		6C47127923EC6B6C005FE761 /* NYTTopStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTTopStoriesTests.swift; sourceTree = "<group>"; };
 		6C47127B23EC6B6C005FE761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C47128423EC6C37005FE761 /* TopStoriesTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTabController.swift; sourceTree = "<group>"; };
+		6C47128923EC6E54005FE761 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		6C47128B23EC6E78005FE761 /* SavedArticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticalViewController.swift; sourceTree = "<group>"; };
+		6C47128D23EC6E86005FE761 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,8 @@
 		6C47126123EC6B68005FE761 /* NYTTopStories */ = {
 			isa = PBXGroup;
 			children = (
-				6C47126223EC6B68005FE761 /* AppDelegate.swift */,
-				6C47126423EC6B68005FE761 /* SceneDelegate.swift */,
-				6C47128423EC6C37005FE761 /* TopStoriesTabController.swift */,
-				6C47126B23EC6B6C005FE761 /* Assets.xcassets */,
-				6C47126D23EC6B6C005FE761 /* LaunchScreen.storyboard */,
+				6C47128823EC6E1A005FE761 /* Supporting Files */,
+				6C47128623EC6DE9005FE761 /* Controllers */,
 				6C47127023EC6B6C005FE761 /* Info.plist */,
 			);
 			path = NYTTopStories;
@@ -94,6 +97,28 @@
 				6C47127B23EC6B6C005FE761 /* Info.plist */,
 			);
 			path = NYTTopStoriesTests;
+			sourceTree = "<group>";
+		};
+		6C47128623EC6DE9005FE761 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C47128423EC6C37005FE761 /* TopStoriesTabController.swift */,
+				6C47128923EC6E54005FE761 /* NewsFeedViewController.swift */,
+				6C47128B23EC6E78005FE761 /* SavedArticalViewController.swift */,
+				6C47128D23EC6E86005FE761 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6C47128823EC6E1A005FE761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C47126223EC6B68005FE761 /* AppDelegate.swift */,
+				6C47126423EC6B68005FE761 /* SceneDelegate.swift */,
+				6C47126B23EC6B6C005FE761 /* Assets.xcassets */,
+				6C47126D23EC6B6C005FE761 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C47128C23EC6E78005FE761 /* SavedArticalViewController.swift in Sources */,
 				6C47126323EC6B68005FE761 /* AppDelegate.swift in Sources */,
 				6C47128523EC6C37005FE761 /* TopStoriesTabController.swift in Sources */,
 				6C47126523EC6B68005FE761 /* SceneDelegate.swift in Sources */,
+				6C47128A23EC6E54005FE761 /* NewsFeedViewController.swift in Sources */,
+				6C47128E23EC6E86005FE761 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
