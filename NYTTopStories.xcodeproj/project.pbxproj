@@ -16,6 +16,7 @@
 		6C47128A23EC6E54005FE761 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128923EC6E54005FE761 /* NewsFeedViewController.swift */; };
 		6C47128C23EC6E78005FE761 /* SavedArticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128B23EC6E78005FE761 /* SavedArticalViewController.swift */; };
 		6C47128E23EC6E86005FE761 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47128D23EC6E86005FE761 /* SettingsViewController.swift */; };
+		6C47129123EC7159005FE761 /* NewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47129023EC7159005FE761 /* NewsFeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		6C47128923EC6E54005FE761 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		6C47128B23EC6E78005FE761 /* SavedArticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticalViewController.swift; sourceTree = "<group>"; };
 		6C47128D23EC6E86005FE761 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6C47129023EC7159005FE761 /* NewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		6C47126123EC6B68005FE761 /* NYTTopStories */ = {
 			isa = PBXGroup;
 			children = (
+				6C47128F23EC711E005FE761 /* Views */,
 				6C47128823EC6E1A005FE761 /* Supporting Files */,
 				6C47128623EC6DE9005FE761 /* Controllers */,
 				6C47127023EC6B6C005FE761 /* Info.plist */,
@@ -119,6 +122,14 @@
 				6C47126D23EC6B6C005FE761 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C47128F23EC711E005FE761 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C47129023EC7159005FE761 /* NewsFeedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 				6C47126323EC6B68005FE761 /* AppDelegate.swift in Sources */,
 				6C47128523EC6C37005FE761 /* TopStoriesTabController.swift in Sources */,
 				6C47126523EC6B68005FE761 /* SceneDelegate.swift in Sources */,
+				6C47129123EC7159005FE761 /* NewsFeedView.swift in Sources */,
 				6C47128A23EC6E54005FE761 /* NewsFeedViewController.swift in Sources */,
 				6C47128E23EC6E86005FE761 /* SettingsViewController.swift in Sources */,
 			);
