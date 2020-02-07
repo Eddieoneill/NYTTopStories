@@ -36,7 +36,8 @@ class NewsFeedView: UIView {
     }
     
     private func commonInit() {
-        
+        setupSearchBarConstraints()
+        setupCollectionViewConstraints()
     }
     
     private func setupSearchBarConstraints() {
